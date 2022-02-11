@@ -158,7 +158,6 @@ public class project4main {
 			for(Vertex vertex : bags) {
 				if(vertex.name.equals(name) && name.contains("a") == false) {
 					vertex.capacity += gifts;
-//					System.out.println("im here");
 					found = true;
 				}
 			}
